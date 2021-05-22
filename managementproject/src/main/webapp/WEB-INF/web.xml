@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID">
+	<servlet>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>managementproject.controller1</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/Administrator</url-pattern>
+ </servlet-mapping>
+ <servlet>
+    <servlet-name>pqr</servlet-name>
+    <servlet-class>managementproject.stdcontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>pqr</servlet-name>
+    <url-pattern>/Student</url-pattern>
+ </servlet-mapping>
+ <servlet>
+    <servlet-name>rst</servlet-name>
+    <servlet-class>managementproject.fctcontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>rst</servlet-name>
+    <url-pattern>/Faculty</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>streg</servlet-name>
+    <servlet-class>managementproject.adminstdregister</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>streg</servlet-name>
+    <url-pattern>/stdreg</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+    <servlet-name>streg1</servlet-name>
+    <servlet-class>managementproject.registrationstudentatadmincontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>streg1</servlet-name>
+    <url-pattern>/register</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>stview1</servlet-name>
+    <servlet-class>managementproject.viewstudentformadmincontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>stview1</servlet-name>
+    <url-pattern>/stdview</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>fctreg1</servlet-name>
+    <servlet-class>managementproject.fctregcontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctreg1</servlet-name>
+    <url-pattern>/fctreg</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>fctreg2</servlet-name>
+    <servlet-class>managementproject.fctregdaocontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctreg2</servlet-name>
+    <url-pattern>/registerfct</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>fctreg3</servlet-name>
+    <servlet-class>managementproject.viewfacultycontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctreg3</servlet-name>
+    <url-pattern>/fctview</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>fctreg4</servlet-name>
+    <servlet-class>managementproject.fctattendcontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctreg4</servlet-name>
+    <url-pattern>/fctattend</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>fctreg5</servlet-name>
+    <servlet-class>managementproject.fctattenddaocontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctreg5</servlet-name>
+    <url-pattern>/attendf</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+    <servlet-name>fctview5</servlet-name>
+    <servlet-class>managementproject.fctviewfromfc</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctview5</servlet-name>
+    <url-pattern>/fvdata</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>fctstmarks</servlet-name>
+    <servlet-class>managementproject.fismarkscotrooler</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>fctstmarks</servlet-name>
+    <url-pattern>/fismarks</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>stmarksin</servlet-name>
+    <servlet-class>managementproject.fctmarksinsertdaocontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>stmarksin</servlet-name>
+    <url-pattern>/stdmarks</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+    <servlet-name>statdin</servlet-name>
+    <servlet-class>managementproject.stdattendfromfcontroller</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>statdin</servlet-name>
+    <url-pattern>/fisattend</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>statdinf</servlet-name>
+    <servlet-class>managementproject.studentattendanceformf</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>statdinf</servlet-name>
+    <url-pattern>/attendst</url-pattern>
+ </servlet-mapping>
+ 
+  
+  <servlet>
+    <servlet-name>stviewff</servlet-name>
+    <servlet-class>managementproject.fsdatacontrooler</servlet-class>
+    </servlet>
+ <servlet-mapping>
+    <servlet-name>stviewff</servlet-name>
+    <url-pattern>/fsdata</url-pattern>
+ </servlet-mapping>
+ 
+  
+
+ 
+ 
+ 
+
+	
+</web-app>
